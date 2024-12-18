@@ -3,12 +3,12 @@ using OpenCvSharp;
 
 public class MorphologicalTransformation
 {
-    public static Mat RunMorphologicalTransformation(Mat gray)
+    public static Mat RunMorphologicalTransformation(Mat gray, int operation)
     {
         const string windowName = "Morphological Transformations";
         Cv2.NamedWindow(windowName);
 
-        int operation = 1; // 0: Erosion, 1: Dilation, 2: Opening, 3: Closing
+        //operation 0: Erosion, 1: Dilation, 2: Opening, 3: Closing
         int kernelSize = 1;
 
         Mat result = gray.Clone(); // 결과를 저장할 Mat
