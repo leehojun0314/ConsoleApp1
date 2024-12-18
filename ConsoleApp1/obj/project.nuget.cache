@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "elpoDNglWZo=",
+  "dgSpecHash": "lOEIHGJnCRw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dlghw\\Source\\Repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "/Users/ihojun/Desktop/프로젝트/C#/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dlghw\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\opencvsharp4\\4.10.0.20241108\\opencvsharp4.4.10.0.20241108.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\opencvsharp4.extensions\\4.10.0.20241108\\opencvsharp4.extensions.4.10.0.20241108.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\opencvsharp4.runtime.osx.10.15-universal\\4.7.0.20230224\\opencvsharp4.runtime.osx.10.15-universal.4.7.0.20230224.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\opencvsharp4.runtime.win\\4.10.0.20241108\\opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\dlghw\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/ihojun/.nuget/packages/microsoft.win32.systemevents/8.0.0/microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/opencvsharp4/4.10.0.20241108/opencvsharp4.4.10.0.20241108.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/opencvsharp4.extensions/4.10.0.20241108/opencvsharp4.extensions.4.10.0.20241108.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/opencvsharp4.runtime.osx.10.15-universal/4.7.0.20230224/opencvsharp4.runtime.osx.10.15-universal.4.7.0.20230224.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/opencvsharp4.runtime.win/4.10.0.20241108/opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/system.drawing.common/8.0.0/system.drawing.common.8.0.0.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/ihojun/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

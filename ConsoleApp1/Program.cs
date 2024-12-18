@@ -1,6 +1,5 @@
 ﻿using ConsoleApp1;
 using OpenCvSharp;
-using OpenCvSharp.Dnn;
 namespace Project
 {
     class Program
@@ -9,8 +8,8 @@ namespace Project
         {
             try
             {
-
-                String fileloc = @"Sample Image/Large defect/20231113-028-0_04.jpg";
+                
+                String fileloc = @"Sample Image/Large defect/20231113-028-1_03.jpg";
                 Mat src = Cv2.ImRead(fileloc);
                 if (src.Empty())
                 {
@@ -49,6 +48,7 @@ namespace Project
                 Console.WriteLine("5. Reset Image");
                 Console.WriteLine("6. Align Wafer Notch");
                 Console.WriteLine("7. Background");
+                Console.WriteLine("8. Hough Lines");
                 Console.WriteLine("s. Save image");
                 Console.WriteLine("v. View image");
                 Console.WriteLine("d. Dnn");
@@ -107,18 +107,26 @@ namespace Project
                         }
 
                         break;
+                    case "8":
+                        current = HoughLinesDetection.RunHoughLines(current);
+                        break;
                     case "0":
                         return;
                     case "s":
                         try
                         {
                             String newPath = fileloc + "_modified.jpg";
-                        current.SaveImage(newPath);
-                        Console.WriteLine($"Image successfully saved to: {newPath}");
-                        }catch(Exception ex) { Console.WriteLine(ex.ToString()); }
+                            current.SaveImage(newPath);
+                            Console.WriteLine($"Image successfully saved to: {newPath}");
+                            Cv2.WaitKey(0);
+                        }catch(Exception ex) { 
+                            Console.WriteLine(ex.ToString());
+                            Cv2.WaitKey(0);
+                        }
                         break;
                     case "v":
                         Cv2.ImShow("Current image", current);
+                        Cv2.WaitKey(0);
                         break;
                     case "d":
                         break;
