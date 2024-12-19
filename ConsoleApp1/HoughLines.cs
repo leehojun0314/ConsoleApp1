@@ -45,7 +45,7 @@ public class HoughLinesDetection
             Point pt1 = new Point((int)(x0 + 1000 * (-b)), (int)(y0 + 1000 * a));
             Point pt2 = new Point((int)(x0 - 1000 * (-b)), (int)(y0 - 1000 * a));
 
-            Cv2.Line(result, pt1, pt2, new Scalar(0, 0, 255), 2, LineTypes.AntiAlias);
+            Cv2.Line(result, pt1, pt2, new Scalar(0, 255, 0), 2, LineTypes.AntiAlias);
         }
 
         // 결과 표시
